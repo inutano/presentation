@@ -25,14 +25,14 @@ footer a {
 
 - Tazro Ohta, Ph.D. [@inutano](https://twitter.com/inutano), Project Assistant Professor in [DBCLS](https://dbcls.rois.ac.jp)
 - Works and Collaborations
-  - Applications for public high-throughput sequencing data
-    - ChIP-Atlas: https://chip-atlas.org/
-  - Scalable computing for genomics
-    - Sapporo: Workflow Execution Service https://github.com/sapporo-wes
-  - Knowledge graph and ontologies for Bio-databases
+  - Applications for **public high-throughput sequencing data**
+    - ChIP-Atlas https://chip-atlas.org/
+  - **Scalable computing** for genomics
+    - Sapporo, Workflow Execution Service https://github.com/sapporo-wes
+  - **Knowledge graph and ontologies** for Bio-databases
     - TogoDX https://togodx.dbcls.jp/human
     - TogoID https://togoid.dbcls.jp
-  - Community
+  - **Community**
     - Pitagora Network https://pitagora-network.org/
     - BioHackathon http://biohackathon.org/
 
@@ -65,8 +65,8 @@ Then my talk is for "Those who started Bioinformatics and want to step forward" 
 # Fast and Faultless
 
 - Learning new skills is to move fast and faultless
-	- "Fast" for your career
-	- "Faultless" for science
+  - "Fast" for your career
+  - "Faultless" for science
 
 ---
 
@@ -74,8 +74,8 @@ Then my talk is for "Those who started Bioinformatics and want to step forward" 
 
 - New techs will give you a benefit, but you must spend time to learn
 - In every moment you need to make a decision:
-	- Do with the skills you have
-	- Learn new skills and optimize your work
+  - Do with the skills you have
+  - Learn new skills and optimize your work
 
 ---
 
@@ -83,9 +83,9 @@ Then my talk is for "Those who started Bioinformatics and want to step forward" 
 
 - **Make a scientific contribution in a limited time frame**
 - Precise estimation is the key
-	- How fast can you do with your current skill?
-	- How long does it take to learn the new skill?
-	- How fast can you do if you got the new skill?
+  - How fast can you do with your current skill?
+  - How long does it take to learn the new skill?
+  - How fast can you do if you got a new skill?
 
 ---
 
@@ -101,7 +101,19 @@ Then my talk is for "Those who started Bioinformatics and want to step forward" 
 
 ---
 
-# Open Science skills to make your work...
+> Open Science is the practice of science in such a way that others can collaborate and contribute, where research data, lab notes and other research processes are freely available, under terms that enable reuse, redistribution and reproduction of the research and its underlying data and methods.
+
+https://www.fosteropenscience.eu/foster-taxonomy/open-science-definition
+
+---
+
+![](images/open-science-definition.png)
+
+<!-- _footer: https://www.fosteropenscience.eu/foster-taxonomy/open-science-definition -->
+
+---
+
+# Open Science skills to make your product:
 
 - **Sharable**: for the provenance of your work
 - **Repeatable**: for your future work to reuse the materials
@@ -115,10 +127,10 @@ Not only for "the good thing"!
 
 - Learning is like investment
 - Is this the right time to learn this?
-	- Your career
-	- Your project progress
-	- Maturity of technology
-	- Maturity of community
+  - Your career
+  - Your project progress
+  - Maturity of the technology
+  - Maturity of community
 
 ---
 
@@ -126,11 +138,15 @@ Not only for "the good thing"!
 
 - Ask people or search about maturity
 - Consider **BEFORE** you start your project
-    - Everything looks pretty during the project
+    - Every new techonology looks pretty during the project
 - Learn when you need it
-	- Using is learning
-	- "It's trending and everyone is talking about it, then I might need to learn.." => **NO**
-- If you'd love to learn, nobody won't stop you to go on vacation and read books
+  - Using is learning
+  - "It's trending, everyone is talking about it, then I might need to learn.." => **NO**
+- If you'd love to learn, nobody won't stop you from going on vacation to read the books
+
+---
+
+# Skills for Open Science
 
 ---
 
@@ -140,7 +156,7 @@ Not only for "the good thing"!
 
 # Describe your product, always
 
-- Write first then implement
+- Write first, then implement
 - Write during the implementation
 - Write after the implementation
 - Write
@@ -148,13 +164,13 @@ Not only for "the good thing"!
 
 ---
 
-# Why documentation is so important?
+# Why does documentation matter?
 
 - You will forget (for sure)
 - Save your time to answer the questions from colleagues/collaborators
 - Help you to manage your project status
 - Help you to **write a paper**
-  - Good documentation is a great start to write a good paper
+  - Good documentation is a start to writing a good paper
 
 ---
 
@@ -196,7 +212,7 @@ Not only for "the good thing"!
 
 # Testing for Bioinformatics software
 
-- What people talk when people talk about testing: **Unit test**
+- What people talk about when people talk about testing: **Unit test**
   - Good practice, but it's about **reliability** of code
   - People will change input: need to test **robustness and limitation**
 - Testing for scientific software should show:
@@ -211,8 +227,8 @@ Not only for "the good thing"!
 - Lv. 1: Describe the correct output in the document
 - Lv. 2: Share example input data on public storage (e.g. [Zenodo](https://zenodo.org))
 - Lv. 3: Ship your software with correct input and output
-- Lv. 4: Use testing framework to make testing executable
-- Lv. 5: Use CI framework (e.g. GitHub actions) to automate testing
+- Lv. 4: Use the testing framework to make testing executable
+- Lv. 5: Use CI framework (e.g., GitHub actions) to automate testing
 
 ---
 
@@ -226,7 +242,7 @@ Not only for "the good thing"!
 
 # When to learn
 
-- Never too late if you already completed your project
+- Consider when you feel your project is coming to an end
   - Try to prepare the test data even after the implementation
 - Providing resources for testing may give a good impression to the journal reviewers as well
 
@@ -238,7 +254,7 @@ Not only for "the good thing"!
 
 # You (will) know the truth of bioinformatics
 
-- You can't run your software 6 months later.
+- You can't run your software six months later.
 
 ---
 
@@ -252,16 +268,16 @@ Not only for "the good thing"!
   - Network settings
   - Remote references
 
-You can package your software with the dependencies, make things much better.
+You can package your software with the dependencies, making things much better.
 
 ---
 
 # Where to start?
 
 - Level 1. Describe your environment with library versions
-- Level 2. Create a installation script to install dependencies and build your product
+- Level 2. Create an installation script to install dependencies and build your product
 - Level 3. Use a packaging framework, e.g. [debian med](https://www.debian.org/devel/debian-med/index.ja.html), [brewsci](https://github.com/brewsci/homebrew-bio), [bioconda](https://bioconda.github.io/), etc.
-- Level 4. Use containers to package whole dependencies
+- Level 4. Use containers to pack the whole dependencies
 - Level 5. Write workflow to pack the combination of containers
 
 ---
@@ -300,8 +316,8 @@ $ docker run \
 # Tips: Writing Dockerfile
 
 - All-in-one or multiple containers
-  - all-in-one: easy to manage, but may cause conflict and hard to update
-  - multiple containers: cost to maintain, will need connection (glue), but no conflict and safe
+  - all-in-one: easy to create, but hard to update
+  - multiple containers: cost to maintain, but safe for dependency problems
 - Tips: Publish both Dockerfile and Image
   - *Container build reproducibility*
 
@@ -310,9 +326,9 @@ $ docker run \
 # When to learn
 
 - A technology still changing rapidly
-  - Will take a time to learn the background mechanisms and keep up the latest trending
+  - Will need time to learn the background mechanisms and keep up with the latest trending
 - Container is one of the basic concepts of cloud infrastructure
-  - Abstraction of computings is an important topic to learn
+  - Abstraction of computing is an important topic to learn
 
 ---
 
@@ -347,22 +363,22 @@ $ docker run \
 
 # When to learn
 
-- Shipping software should be a part of publication
+- Shipping software should be a part of a publication
   - If you are writing a paper, do it now
-  - If you are writing a software, remember to do it later
+  - If you are writing software, remember to do it later
 
 ---
 
-# And more and more skills... Keep learning!
+# And more and more skills; Keep learning!
 
 ---
 
 # Summary: Get into the community
 
 - **TBA is amazing**
-- Community is learning opportunity
+- Community is a learning opportunity
 - Working with people is "How" to learn
   - One-day/One-week Hackathon
   - Talk to people
   - Collaborate with people
-- Survive, you are not alone
+- Survive. You are not alone
